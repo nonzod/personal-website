@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Nicola Tomassoni</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Nicola Tomassoni</description>
+    <title>Markdown on Nicola Tomassoni</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on Nicola Tomassoni</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Code Syntax Guide</title>
       <link>http://localhost:1313/posts/hello/</link>
