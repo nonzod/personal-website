@@ -1,12 +1,8 @@
 # Stage 1: Build the Hugo site
-FROM --platform=$BUILDPLATFORM klakegg/hugo:ext-ubuntu as builder
+FROM --platform=$BUILDPLATFORM klakegg/hugo:ext-ubuntu AS builder
 
 WORKDIR /src
 COPY . .
-
-# Build the static site
-RUN hugo build
-RUN hugo --minify
 
 # Stage 2: Serve the site with Nginx
 FROM nginx:alpine
