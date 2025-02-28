@@ -6,26 +6,19 @@
     <description>Recent content in Posts on Nicola Tomassoni</description>
     <image>
       <title>Nicola Tomassoni</title>
-      <url>https://nicolatomassoni.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://nicolatomassoni.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://nicolatomassoni.it/io.webp</url>
+      <link>https://nicolatomassoni.it/io.webp</link>
     </image>
-    <generator>Hugo -- 0.144.0</generator>
+    <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nicolatomassoni.it/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Code Syntax Guide</title>
-      <link>https://nicolatomassoni.it/posts/hello/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/posts/hello/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
-    </item>
-    <item>
-      <title>Code Syntax Guide</title>
-      <link>https://nicolatomassoni.it/posts/second/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/posts/second/</guid>
-      <description>Sample article showcasing basic code syntax and formatting for HTML elements.</description>
+      <title>Building an Home Automation Kubernetes Infrastructure with Home Assistant</title>
+      <link>https://nicolatomassoni.it/posts/firstpost/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/posts/firstpost/</guid>
+      <description>A comprehensive guide to setting up a home infrastructure using Kubernetes (K3s), Kustomize, and ArgoCD for GitOps, featuring Home Assistant, ESPHome, Pi-hole, and WireGuard VPN.</description>
     </item>
   </channel>
 </rss>

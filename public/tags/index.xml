@@ -6,39 +6,88 @@
     <description>Recent content in Tags on Nicola Tomassoni</description>
     <image>
       <title>Nicola Tomassoni</title>
-      <url>https://nicolatomassoni.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://nicolatomassoni.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://nicolatomassoni.it/io.webp</url>
+      <link>https://nicolatomassoni.it/io.webp</link>
     </image>
-    <generator>Hugo -- 0.144.0</generator>
+    <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nicolatomassoni.it/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Code</title>
-      <link>https://nicolatomassoni.it/tags/code/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/code/</guid>
+      <title>Argocd</title>
+      <link>https://nicolatomassoni.it/tags/argocd/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/argocd/</guid>
       <description></description>
     </item>
     <item>
-      <title>Gist</title>
-      <link>https://nicolatomassoni.it/tags/gist/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/gist/</guid>
+      <title>Esphome</title>
+      <link>https://nicolatomassoni.it/tags/esphome/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/esphome/</guid>
       <description></description>
     </item>
     <item>
-      <title>Markdown</title>
-      <link>https://nicolatomassoni.it/tags/markdown/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/markdown/</guid>
+      <title>Gitops</title>
+      <link>https://nicolatomassoni.it/tags/gitops/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/gitops/</guid>
       <description></description>
     </item>
     <item>
-      <title>Syntax</title>
-      <link>https://nicolatomassoni.it/tags/syntax/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/syntax/</guid>
+      <title>Home-Assistant</title>
+      <link>https://nicolatomassoni.it/tags/home-assistant/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/home-assistant/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Home-Automation</title>
+      <link>https://nicolatomassoni.it/tags/home-automation/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/home-automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>https://nicolatomassoni.it/tags/homelab/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>K3s</title>
+      <link>https://nicolatomassoni.it/tags/k3s/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/k3s/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>https://nicolatomassoni.it/tags/kubernetes/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pihole</title>
+      <link>https://nicolatomassoni.it/tags/pihole/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/pihole/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted</title>
+      <link>https://nicolatomassoni.it/tags/self-hosted/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/self-hosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireguard</title>
+      <link>https://nicolatomassoni.it/tags/wireguard/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/tags/wireguard/</guid>
       <description></description>
     </item>
   </channel>

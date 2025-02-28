@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home Automation on Nicola Tomassoni</title>
+    <link>https://nicolatomassoni.it/categories/home-automation/</link>
+    <description>Recent content in Home Automation on Nicola Tomassoni</description>
+    <image>
+      <title>Nicola Tomassoni</title>
+      <url>https://nicolatomassoni.it/io.webp</url>
+      <link>https://nicolatomassoni.it/io.webp</link>
+    </image>
+    <generator>Hugo -- 0.144.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://nicolatomassoni.it/categories/home-automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Home Automation Kubernetes Infrastructure with Home Assistant</title>
+      <link>https://nicolatomassoni.it/posts/firstpost/</link>
+      <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://nicolatomassoni.it/posts/firstpost/</guid>
+      <description>A comprehensive guide to setting up a home infrastructure using Kubernetes (K3s), Kustomize, and ArgoCD for GitOps, featuring Home Assistant, ESPHome, Pi-hole, and WireGuard VPN.</description>
+    </item>
+  </channel>
+</rss>

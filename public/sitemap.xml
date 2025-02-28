@@ -2,40 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nicolatomassoni.it/tags/argocd/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/posts/firstpost/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nicolatomassoni.it/categories/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/tags/code/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/tags/esphome/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/posts/hello/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/tags/gitops/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/posts/second/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/categories/home-automation/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/tags/gist/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/tags/home-assistant/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/tags/markdown/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/tags/home-automation/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/tags/homelab/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/categories/infrastructure/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/tags/k3s/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/tags/kubernetes/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolatomassoni.it/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/tags/pihole/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolatomassoni.it/posts/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/tags/syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/tags/self-hosted/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/categories/syntax/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/categories/self-hosting/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolatomassoni.it/tags/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://nicolatomassoni.it/categories/themes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
+    <loc>https://nicolatomassoni.it/tags/wireguard/</loc>
+    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url>
 </urlset>

@@ -11,13 +11,9 @@ buildExpired: false
 menu:
   main:
     - identifier: posts
-      name: Posts
+      name: posts
       url: /posts/
       weight: 10
-    - identifier: example
-      name: nztools
-      url: https://nztools.net
-      weight: 30
 
 minify:
   disableXML: true
@@ -27,22 +23,29 @@ params:
   env: development # to enable google analytics, opengraph, twitter-cards and schema.
   title: nicolatomassoni.it
   description: "Useless things"
-  keywords: [Portfolio, Developer, Sentio Developer, php]
+  keywords: [Portfolio, Developer, Drupal Developer, php, javascript, typescript, AI]
   author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
-  DateFormat: "02-12-2006"
+  images: ["io.webp"]
+  DateFormat: "2 Jan 2006"
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
-  defaultTheme: auto # dark, light
+  defaultTheme: auto
   disableThemeToggle: false
+  profileMode:
+    enabled: true
+    title: "Nicola Tomassoni" # optional default will be site title
+    subtitle: "software developer"
+    imageUrl: "io.webp"
+    imageTitle: "Nicola Tomassoni" # optional
+    imageWidth: 180 # custom size
+    imageHeight: 180 # custom size
   socialIcons:
     - name: linkedin
       url: "https://www.linkedin.com/in/nicolatomassoni/"
     - name: github
       url: "https://github.com/nonzod"
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
