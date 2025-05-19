@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nicolatomassoni.it/cv/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nicolatomassoni.it/page/</loc>
+    <lastmod>2025-05-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://nicolatomassoni.it/tags/argocd/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,9 +45,6 @@
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolatomassoni.it/tags/kubernetes/</loc>
-    <lastmod>2025-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nicolatomassoni.it/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nicolatomassoni.it/tags/pihole/</loc>

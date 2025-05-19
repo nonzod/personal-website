@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Nicola Tomassoni</title>
-    <link>https://nicolatomassoni.it/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Nicola Tomassoni</description>
     <image>
       <title>Nicola Tomassoni</title>
-      <url>https://nicolatomassoni.it/io.webp</url>
-      <link>https://nicolatomassoni.it/io.webp</link>
+      <url>http://localhost:1313/io.webp</url>
+      <link>http://localhost:1313/io.webp</link>
     </image>
-    <generator>Hugo -- 0.144.2</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nicolatomassoni.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home Automation</title>
-      <link>https://nicolatomassoni.it/categories/home-automation/</link>
+      <link>http://localhost:1313/categories/home-automation/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/categories/home-automation/</guid>
+      <guid>http://localhost:1313/categories/home-automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>https://nicolatomassoni.it/categories/infrastructure/</link>
+      <link>http://localhost:1313/categories/infrastructure/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/categories/infrastructure/</guid>
+      <guid>http://localhost:1313/categories/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Hosting</title>
-      <link>https://nicolatomassoni.it/categories/self-hosting/</link>
+      <link>http://localhost:1313/categories/self-hosting/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/categories/self-hosting/</guid>
+      <guid>http://localhost:1313/categories/self-hosting/</guid>
       <description></description>
     </item>
   </channel>

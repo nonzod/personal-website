@@ -2,92 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Nicola Tomassoni</title>
-    <link>https://nicolatomassoni.it/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Nicola Tomassoni</description>
     <image>
       <title>Nicola Tomassoni</title>
-      <url>https://nicolatomassoni.it/io.webp</url>
-      <link>https://nicolatomassoni.it/io.webp</link>
+      <url>http://localhost:1313/io.webp</url>
+      <link>http://localhost:1313/io.webp</link>
     </image>
-    <generator>Hugo -- 0.144.2</generator>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nicolatomassoni.it/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Argocd</title>
-      <link>https://nicolatomassoni.it/tags/argocd/</link>
+      <link>http://localhost:1313/tags/argocd/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/argocd/</guid>
+      <guid>http://localhost:1313/tags/argocd/</guid>
       <description></description>
     </item>
     <item>
       <title>Esphome</title>
-      <link>https://nicolatomassoni.it/tags/esphome/</link>
+      <link>http://localhost:1313/tags/esphome/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/esphome/</guid>
+      <guid>http://localhost:1313/tags/esphome/</guid>
       <description></description>
     </item>
     <item>
       <title>Gitops</title>
-      <link>https://nicolatomassoni.it/tags/gitops/</link>
+      <link>http://localhost:1313/tags/gitops/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/gitops/</guid>
+      <guid>http://localhost:1313/tags/gitops/</guid>
       <description></description>
     </item>
     <item>
       <title>Home-Assistant</title>
-      <link>https://nicolatomassoni.it/tags/home-assistant/</link>
+      <link>http://localhost:1313/tags/home-assistant/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/home-assistant/</guid>
+      <guid>http://localhost:1313/tags/home-assistant/</guid>
       <description></description>
     </item>
     <item>
       <title>Home-Automation</title>
-      <link>https://nicolatomassoni.it/tags/home-automation/</link>
+      <link>http://localhost:1313/tags/home-automation/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/home-automation/</guid>
+      <guid>http://localhost:1313/tags/home-automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Homelab</title>
-      <link>https://nicolatomassoni.it/tags/homelab/</link>
+      <link>http://localhost:1313/tags/homelab/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/homelab/</guid>
+      <guid>http://localhost:1313/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
       <title>K3s</title>
-      <link>https://nicolatomassoni.it/tags/k3s/</link>
+      <link>http://localhost:1313/tags/k3s/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/k3s/</guid>
+      <guid>http://localhost:1313/tags/k3s/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>https://nicolatomassoni.it/tags/kubernetes/</link>
+      <link>http://localhost:1313/tags/kubernetes/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/kubernetes/</guid>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>Pihole</title>
-      <link>https://nicolatomassoni.it/tags/pihole/</link>
+      <link>http://localhost:1313/tags/pihole/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/pihole/</guid>
+      <guid>http://localhost:1313/tags/pihole/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Hosted</title>
-      <link>https://nicolatomassoni.it/tags/self-hosted/</link>
+      <link>http://localhost:1313/tags/self-hosted/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/self-hosted/</guid>
+      <guid>http://localhost:1313/tags/self-hosted/</guid>
       <description></description>
     </item>
     <item>
       <title>Wireguard</title>
-      <link>https://nicolatomassoni.it/tags/wireguard/</link>
+      <link>http://localhost:1313/tags/wireguard/</link>
       <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://nicolatomassoni.it/tags/wireguard/</guid>
+      <guid>http://localhost:1313/tags/wireguard/</guid>
       <description></description>
     </item>
   </channel>

@@ -14,7 +14,11 @@ menu:
       name: posts
       url: /posts/
       weight: 10
-
+    - identifier: cv
+      name: CV
+      url: /cv/
+      weight: 20
+      
 minify:
   disableXML: true
   minifyOutput: true
@@ -46,6 +50,8 @@ params:
       url: "https://www.linkedin.com/in/nicolatomassoni/"
     - name: github
       url: "https://github.com/nonzod"
+  footer:
+    text: ""
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
