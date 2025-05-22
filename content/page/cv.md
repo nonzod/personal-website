@@ -127,3 +127,5 @@ Recente interesse e sviluppo di competenze in ambito AI, inclusi Prompt Engineer
 
 * **Italiano:** Madrelingua
 * **Inglese:** Buono compresione, base parlato
+
+`:)`
