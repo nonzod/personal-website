@@ -11,7 +11,7 @@ buildExpired: false
 menu:
   main:
     - identifier: posts
-      name: posts
+      name: Posts
       url: /posts/
       weight: 10
     - identifier: cv
@@ -27,7 +27,7 @@ params:
   env: development # to enable google analytics, opengraph, twitter-cards and schema.
   title: nicolatomassoni.it
   description: "Useless things"
-  keywords: [Portfolio, Developer, Drupal Developer, php, javascript, typescript, AI]
+  keywords: [Portfolio, Developer, Drupal Developer, PHP, javascript, typescript, AI]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["io.webp"]
@@ -71,6 +71,13 @@ params:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+        title: true
   highlight:
     noClasses: false
     # anchorLineNos: true
