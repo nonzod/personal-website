@@ -21,11 +21,16 @@ searchHidden: false
 
 ## PROFILO PROFESSIONALE
 
-Sviluppatore software Full-Stack e Project Manager con oltre 25 anni di esperienza nella progettazione, sviluppo e gestione di soluzioni web, E-Commerce e applicazioni mobile.
+Sviluppatore software e Project Manager con oltre 22 anni di esperienza nella progettazione, sviluppo e gestione di soluzioni innovative nel settore tecnologico. Il mio percorso professionale abbraccia l'intera evoluzione del panorama digitale, dalle prime applicazioni web agli attuali sistemi basati su intelligenza artificiale.
 
-Profonda esperienza nell'ecosistema open source (GNU/Linux, PHP, Python, Drupal) e nell'amministrazione di sistemi. Comprovata capacità di guidare team tecnici e gestire progetti dall'ideazione al rilascio, lavorando sia come freelance che in contesti aziendali strutturati e start-up.
+Ho maturato una solida expertise nell'ecosistema open source, con particolare specializzazione in GNU/Linux, Python, PHP, Drupal e Laravel, sviluppando nel tempo competenze avanzate nell'amministrazione di sistemi e nell'architettura software. La mia esperienza spazia dal settore pubblico, con progetti per istituzioni Comunali, Regionali, ed universitarie, al settore privato con soluzioni E-Commerce e applicazioni mobile per clienti nazionali e internazionali.
 
-Recente interesse e sviluppo di competenze in ambito AI, inclusi Prompt Engineering e utilizzo di LLM.
+Nel corso della mia carriera ho dimostrato una naturale propensione all'imprenditorialità e alla leadership, co-fondando diverse realtà innovative: dall'Associazione Entropica per la promozione dell'open source nella formazione, alla cooperativa Digisin (diventata membro della Drupal Association), fino allo spin-off universitario Polygree per lo sviluppo di piattaforme sperimentali di fact-checking. Ho inoltre guidato la nascita di Weblaze all'interno del Gruppo Shibumi, ricoprendo ruoli di Project Manager e Team Leader per progetti complessi di sviluppo Mobile, E-Commerce e Web.
+
+La mia competenza tecnica si estende dall'ambiente tradizionale LAMP (Linux, Apache, MySQL, PHP) alle moderne architetture cloud-native con Docker e Kubernetes, dalle applicazioni mobile native e ibride ai sistemi di business intelligence. Recentemente ho sviluppato un forte interesse per l'intelligenza artificiale, acquisendo competenze in Prompt Engineering, utilizzo di Large Language Models e workflow automation, fino a sperimentare con il fine-tuning e la distillazione di modelli tramite librerie Hugging Face.
+Questa passione per l'innovazione tecnologica si riflette nei miei progetti personali, tra cui spicca "Fuel Scan", un'applicazione Flutter sviluppata interamente con il supporto dell'AI e attualmente disponibile nel Play Store Android, e diversi contributi open source che spaziano da moduli Drupal a tool per Next.js e IoT.
+
+Attualmente, nel ruolo di Responsabile Ricerca e Sviluppo presso Tourtools srl, guido l'innovazione tecnologica aziendale implementando soluzioni basate su modelli AI per l'analisi dati, il supporto clienti e l'incremento delle vendite, mentre continuo a fornire leadership tecnica per lo sviluppo di soluzioni web ed E-Commerce avanzate.
 
 ---
 
