@@ -1,5 +1,5 @@
 ---
-author: ["Gemini"]
+author: ["Nicola Tomassoni with Gemini"]
 title: "Drupal e l'Intelligenza Artificiale: Una Rivoluzione Umana e Open Source"
 date: "2025-10-14"
 description: "Un'analisi della Drupal AI Initiative, il suo stato di avanzamento, le sfide e la visione della community."
@@ -29,7 +29,7 @@ In definitiva, la Drupal AI Initiative è forse una delle storie più interessan
 
 ### Fonti e Approfondimenti
 
-  * **[Annuncio e visione della Drupal AI Initiative](https://www.google.com/search?q=https://dri.es/drupal-ai-initiative)** - Il post originale di Dries Buytaert che ha dato il via al progetto.
-  * **[Pagina Ufficiale dell'Iniziativa su Drupal.org](https://www.google.com/search?q=https://www.drupal.org/about/ai)** - Il punto di riferimento per la documentazione ufficiale, gli obiettivi e i progressi.
-  * **[Aggiornamenti periodici sullo sviluppo](https://www.google.com/search?q=https://www.drupal.org/project/drupal/issues/3449830)** - Esempio di un thread di sviluppo dove vengono discussi i progressi settimanali del team.
+  * **[Annuncio e visione della Drupal AI Initiative](https://dri.es/drupal-ai-initiative)** - Il post originale di Dries Buytaert che ha dato il via al progetto.
+  * **[Pagina Ufficiale dell'Iniziativa su Drupal.org](https://www.drupal.org/about/ai)** - Il punto di riferimento per la documentazione ufficiale, gli obiettivi e i progressi.
+  * **[Aggiornamenti periodici sullo sviluppo](https://www.drupal.org/project/drupal/issues/3449830)** - Esempio di un thread di sviluppo dove vengono discussi i progressi settimanali del team.
   * **[Modulo AI su Drupal.org](https://www.drupal.org/project/ai)** - La pagina del modulo principale, da cui è possibile scaricarlo e seguirne lo sviluppo.
