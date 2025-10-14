@@ -30,7 +30,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: development # to enable google analytics, opengraph, twitter-cards and schema.
   title: nicolatomassoni.it
   description: "Useless things"
   keywords: [Portfolio, Developer, Drupal Developer, PHP, javascript, typescript, AI]
