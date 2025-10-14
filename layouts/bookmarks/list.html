@@ -1,0 +1,222 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{- .Content }}
+</div>
+{{- end }}
+
+{{- $pages := .Pages }}
+
+{{- /* Collect all unique tags */ -}}
+{{- $allTags := slice }}
+{{- range $page := $pages }}
+  {{- range $tag := $page.Params.tags }}
+    {{- if not (in $allTags $tag) }}
+      {{- $allTags = $allTags | append $tag }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- /* Group bookmarks by tags */ -}}
+{{- $bookmarksByTag := dict }}
+{{- range $page := $pages }}
+  {{- range $tag := $page.Params.tags }}
+    {{- $existing := index $bookmarksByTag $tag }}
+    {{- if $existing }}
+      {{- $bookmarksByTag = merge $bookmarksByTag (dict $tag ($existing | append $page)) }}
+    {{- else }}
+      {{- $bookmarksByTag = merge $bookmarksByTag (dict $tag (slice $page)) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+{{- /* Display tag cloud */ -}}
+{{- if gt (len $allTags) 0 }}
+<div class="tags-cloud-section">
+  <h2>Filtra per tag</h2>
+  <div class="tags-cloud">
+    <button class="tag-button active" data-tag="all">Tutti</button>
+    {{- range $allTags }}
+    <button class="tag-button" data-tag="{{ . }}">{{ . }}</button>
+    {{- end }}
+  </div>
+</div>
+
+{{- /* Display bookmarks grouped by tag */ -}}
+  {{- range $tag, $bookmarks := $bookmarksByTag }}
+  <div class="bookmark-tag-section" data-tag-section="{{ $tag }}">
+    <h2 class="bookmark-tag-title">{{ $tag }}</h2>
+    <ul class="bookmark-list">
+      {{- range $bookmarks }}
+      <li class="bookmark-item">
+        <div class="bookmark-content">
+          <h3 class="bookmark-title">
+            {{- if .Params.link }}
+            <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">
+              {{ .Title }}
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: inline; vertical-align: middle; margin-left: 4px;">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+            {{- else }}
+            {{ .Title }}
+            {{- end }}
+          </h3>
+          {{- if .Params.description }}
+          <p class="bookmark-description">{{ .Params.description }}</p>
+          {{- end }}
+          {{- if .Date }}
+          <div class="bookmark-meta">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          </div>
+          {{- end }}
+        </div>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+  {{- end }}
+{{- else }}
+  <p>No bookmarks yet.</p>
+{{- end }}
+
+<style>
+.tags-cloud-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.tags-cloud-section h2 {
+  margin-bottom: 1rem;
+  color: var(--content);
+}
+
+.tags-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag-button {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--border);
+  border-radius: 20px;
+  background-color: var(--theme);
+  color: var(--content);
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.tag-button:hover {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--theme);
+}
+
+.tag-button.active {
+  border-color: var(--primary);
+  background-color: var(--primary);
+  color: var(--theme);
+}
+
+.bookmark-tag-section {
+  margin-bottom: 3rem;
+}
+
+.bookmark-tag-title {
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary);
+}
+
+.bookmark-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bookmark-item {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.bookmark-item:hover {
+  border-color: var(--primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bookmark-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+.bookmark-title a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.bookmark-title a:hover {
+  text-decoration: underline;
+}
+
+.bookmark-description {
+  margin: 0.5rem 0;
+  color: var(--secondary);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.bookmark-meta {
+  font-size: 0.85rem;
+  color: var(--secondary);
+  margin-top: 0.5rem;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const tagButtons = document.querySelectorAll('.tag-button');
+  const tagSections = document.querySelectorAll('.bookmark-tag-section');
+
+  tagButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const selectedTag = this.dataset.tag;
+
+      // Update active button
+      tagButtons.forEach(btn => btn.classList.remove('active'));
+      this.classList.add('active');
+
+      // Show/hide sections based on selected tag
+      tagSections.forEach(section => {
+        if (selectedTag === 'all') {
+          section.style.display = 'block';
+        } else {
+          const sectionTag = section.dataset.tagSection;
+          section.style.display = sectionTag === selectedTag ? 'block' : 'none';
+        }
+      });
+    });
+  });
+});
+</script>
+
+{{- end }}{{/* end main */}}

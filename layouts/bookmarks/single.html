@@ -1,0 +1,77 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title">
+      {{ .Title }}
+      {{- if .Params.link }}
+      <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer" style="margin-left: 10px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+          <polyline points="15 3 21 3 21 9"></polyline>
+          <line x1="10" y1="14" x2="21" y2="3"></line>
+        </svg>
+      </a>
+      {{- end }}
+    </h1>
+    {{- if .Params.description }}
+    <div class="post-description">
+      {{ .Params.description }}
+    </div>
+    {{- end }}
+    <div class="post-meta">
+      {{- if .Date }}
+      <span>{{ .Date.Format "January 2, 2006" }}</span>
+      {{- end }}
+      {{- if .Params.tags }}
+      <span>·</span>
+      <ul class="post-tags">
+        {{- range .Params.tags }}
+        <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </div>
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- .Content }}
+  </div>
+  {{- end }}
+
+  {{- if .Params.link }}
+  <div class="bookmark-url-section">
+    <strong>Link:</strong> <a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">{{ .Params.link }}</a>
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- if $.Site.Params.ShowPostNavLinks }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+  </footer>
+</article>
+
+<style>
+.bookmark-url-section {
+  margin-top: 2rem;
+  padding: 1rem;
+  background: var(--code-bg);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary);
+  word-break: break-all;
+}
+
+.bookmark-url-section a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.bookmark-url-section a:hover {
+  text-decoration: underline;
+}
+</style>
+
+{{- end }}{{/* end main */}}
