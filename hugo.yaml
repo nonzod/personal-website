@@ -3,6 +3,8 @@ languageCode: en-us
 title: Nicola Tomassoni
 theme: ["PaperMod"]
 
+googleAnalytics: G-8V79PQY10Q
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -28,7 +30,7 @@ minify:
   minifyOutput: true
 
 params:
-  env: development # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: nicolatomassoni.it
   description: "Useless things"
   keywords: [Portfolio, Developer, Drupal Developer, PHP, javascript, typescript, AI]
