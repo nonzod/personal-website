@@ -1,5 +1,5 @@
 ---
-author: ["Nicola Tomassoni"]
+author: ["Nicola Tomassoni with Gemini"]
 title: "Risolvere il Blocco dell'Audio USB (Jabra) dopo una Videochiamata su Linux"
 date: "2025-10-15"
 description: "Come risolvere il problema del blocco dell'audio USB causato dal driver uvcvideo su Linux"
@@ -9,6 +9,9 @@ categories: ["Linux"]
 series: ["Linux"]
 ShowToc: true
 TocOpen: true
+cover:
+    image: "usb.jpg"
+    relative: true
 ---
 
 ### **Risolvere il Blocco dell'Audio USB (Jabra) dopo una Videochiamata su Linux**
