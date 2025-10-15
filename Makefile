@@ -1,3 +1,5 @@
+# Deprecated: Use GitHub Actions for building and pushing Docker images
+
 # Variables
 DOCKER_USERNAME = nonzod
 IMAGE_NAME = nicolatomassoni-website
