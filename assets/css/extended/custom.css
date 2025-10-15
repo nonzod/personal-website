@@ -1,0 +1,5 @@
+/* Custom width for modern monitors */
+:root {
+    --main-width: 1200px;
+    --nav-width: 1200px;
+}
